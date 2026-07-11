@@ -14,7 +14,7 @@ st.write("Gireceğiniz sayıya kadar olan tüm mükemmel sayıları listeler.")
 st.caption("Not: Mükemmel sayı, kendisi hariç pozitif bölenlerinin toplamına eşit olan sayıdır (Örn: 6 = 1 + 2 + 3).")
 
 # 3. Web Giriş Kutusu (Kullanıcıdan sınır sayısını alıyoruz)
-sinir_sayisi = st.number_input("Bir sınır sayısı giriniz:", min_value=2, max_value=10000, value=100, step=1)
+sinir_sayisi = st.number_input("Bir sınır sayısı giriniz:", min_value=2, max_value=10000000000000000000000000, value=100, step=1)
 
 # 4. Hesaplama Butonu ve Sonuç Ekranı
 if st.button("Mükemmel Sayıları Listele"):
