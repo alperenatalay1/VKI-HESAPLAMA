@@ -17,5 +17,5 @@ if st.button("Hesapla"):
         st.info("Durum: Kilolusunuz. Dengeli beslenmeye özen gösterin.")
     else:
         st.error("Durum: Obez sınıfındasınız. Bir uzmana danışmanız iyi olabilir.")
-        st.set_page_config(
+        st.set_page_config()
 st.sidebar.markdown("# 🏠 VKİ")
