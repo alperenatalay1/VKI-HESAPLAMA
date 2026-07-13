@@ -17,6 +17,7 @@ st.markdown(
     </style>
     """,
     unsafe_allow_html=True
+)
 st.sidebar.markdown("# 🏠 HOŞGELDİNİZ")
 import streamlit as st
 
