@@ -3,12 +3,11 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #1877f;
+        background-color: #fcecee;
     }
     </style>
     """,
     unsafe_allow_html=True
-)
 st.sidebar.markdown("# 🏠 HOŞGELDİNİZ")
 import streamlit as st
 
