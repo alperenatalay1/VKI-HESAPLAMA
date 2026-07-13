@@ -2,23 +2,44 @@ import streamlit as st
 st.markdown(
     """
     <style>
+    /* Tüm sayfanın arka planı (Facebook Gri/Mavi Fonu) */
     .stApp {
-        background-color: #fafafa !important;
+        background-color: #f0f2f5 !important;
     }
-    h1, h2, h3 {
-        color: #a9043a !important;
+    
+    /* Başlıklar ve Yazı Renkleri (Facebook Koyu Lacivert/Siyah Yazı Tonu) */
+    h1, h2, h3, p, span, label {
+        color: #050505 !important;
+        font-family: Segoe UI, Helvetica, Arial, sans-serif !important;
     }
+    
+    /* Butonların Tasarımı (Orijinal Facebook Mavisi) */
     div.stButton > button:first-child {
-        background-color: #fdb912 !important;
-        color: #a9043a !important;
-        border: 2px solid #a9043a !important;
+        background-color: #1877f2 !important;
+        color: #ffffff !important;
+        border: none !important;
         font-weight: bold !important;
+        padding: 0.5rem 1rem !important;
+        border-radius: 6px !important;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+    }
+    
+    /* Butonun üzerine fareyle gelindiğinde (Koyu Mavi Hover Efekti) */
+    div.stButton > button:first-child:hover {
+        background-color: #166fe5 !important;
+        color: #ffffff !important;
+    }
+    
+    /* Giriş kutularının beyaz fonu ve yuvarlak hatları */
+    .stTextInput>div>div>input, .stNumberInput>div>div>input, .stSelectbox>div>div>div {
+        background-color: #ffffff !important;
+        border-radius: 6px !important;
+        border: 1px solid #ced4da !important;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
-
 def topla(a, b):
     return a + b
 def çıkar(a, b):
